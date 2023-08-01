@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         name = findViewById(R.id.nameInput)
     }
 
-    fun createBirthdayCard(view: View) {
+    fun createBirthdayCard(view: View) {  println("This is containd in my 2nd commit")
         val inputText = name.text.toString()
         Toast.makeText(this, "Happy Birthday $inputText", Toast.LENGTH_SHORT).show()
         // val
