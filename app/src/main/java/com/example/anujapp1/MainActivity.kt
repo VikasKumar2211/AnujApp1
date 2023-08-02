@@ -15,9 +15,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         name = findViewById(R.id.nameInput)
+
+        today is a good day// 3rd commit, intentional error to undo commit
     }
 
-    fun createBirthdayCard(view: View) {  println("This is containd in my 2nd commit")
+    fun createBirthdayCard(view: View) {  println("This is containd in my 2nd commit")//This is containd in my 2nd commit
         val inputText = name.text.toString()
         Toast.makeText(this, "Happy Birthday $inputText", Toast.LENGTH_SHORT).show()
         // val
