@@ -1,6 +1,6 @@
 package com.example.anujapp1
 
-import  androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         name = findViewById(R.id.nameInput)
 
-        today is a good day// 3rd commit, intentional error to undo commit
+        today is a good day// 3rd commit, intentional error to undo commit(reverting)
     }
 
     fun createBirthdayCard(view: View) {  println("This is containd in my 2nd commit")//This is containd in my 2nd commit
